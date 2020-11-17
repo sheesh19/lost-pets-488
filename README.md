@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+PETS
 
-Things you may want to cover:
+## HTTP VERB    CONTROLLER ACTION   ACTIVERECORD METHOD
+- GET           INDEX               ALL
+- GET           NEW                 NEW
+- POST          CREATE              NEW + SAVE / CREATE
+- GET           EDIT                FIND
+- PATCH         UPDATE              UPDATE
+- GET           SHOW                FIND
+- DELETE        DESTORY             DESTROY
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

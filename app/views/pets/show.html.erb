@@ -1,0 +1,10 @@
+<h1>LOOK AT THIS PET!!!!</h1>
+
+<%= link_to 'See All Pets', pets_path %>
+<%= link_to 'Edit Pet', edit_pet_path(@pet) %>
+<%= link_to 'Kill the Pet ☠️', pet_path(@pet), method: :delete %>
+
+<p>Name: <%= @pet.name %> </p>
+<p>Species: <%= @pet.species %> </p>
+<p>Date: <%= @pet.found_on %> </p>
+<p>Found # days ago: <%= @pet.found_days_ago %> </p>
